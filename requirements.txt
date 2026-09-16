@@ -1,0 +1,13 @@
+# IsoQGNN dependencies (Python 3.11)
+# Exact versions used to produce the results reported in the paper.
+# The variational quantum training is sensitive to initialisation, so exact
+# pins are given for reproducibility; see README for the seed/epoch protocol.
+torch==2.11.0
+pennylane==0.44.1
+rdkit==2026.03.1
+scikit-learn==1.8.0
+numpy==2.4.2
+pandas==2.3.3
+matplotlib==3.10.8
+seaborn==0.13.2
+requests==2.32.5
